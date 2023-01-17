@@ -1,0 +1,29 @@
+LoginPage
+    - login form with username and password
+    - login button
+    - register button
+    - forgot password button
+
+RegisterPage
+    - register form with fname, lname, dob, username, email, password, and password confirmation
+    - register button
+
+ForgotPasswordPage
+    - recover password with email button
+    - recover password with username button
+
+HomePage
+    - logout button
+    - Settings button
+    - Friends section
+    - History section
+    - notifications section
+    - play chess section
+
+SettingsPage
+    - change login
+    - change theme
+    - change account info
+    - delete account
+
+    
