@@ -4,19 +4,25 @@ Starting with group then the componets in that group
 
 1. Text
 	- Headings
+		~ h1 = Page Title (Login Page Title) || (Welcome Back "User")
+		~ h2 = Section Title (Please Login) || (Friends)
+		~ h3 = Sub Section Title (Password) || (Select a Friend / Find a Friend)
+		~ h4 = Sub Sub Section Title (Frogot Password?) || (Friend Name (or paragraph here))
 	- Paragraphs
+	    ~ Blockquote = disctiptions (The knight is a chess peice that moves in an L shape)
+		~ Sentence = single line of text (Logan Gauchat)
 2. Images
-	- Icons
-	- Pictures
+	- Icons = use for buttons and links
+	- Pictures = use for art and graphics
 3. Links
-    - Internal Link
-	- External Link
+    - Internal Link = use for navigation (will look like button but will be a link, also can have no background or border)
+	- External Link = use for external links (will look like button but will be a link, also can have no background but will have underline border)
 4. Buttons
-    - Navigation
-	- Primary
-	- Secondary
-	- Submit
-	- Cancel
+    - Navigation = use icons with option of background or no background
+	- Primary = use for primary action (Login) || (Play Chess) Background: White
+	- Secondary = use for secondary action (Register) || (Find a Friend) Background: Black Border: White 
+	- Submit = use for submit action (Accept) || (Send) Background: Green
+	- Cancel = use for cancel action (Deny) || (Cancel) Background: Red
 5. Input
     - Text
 	- Password
@@ -55,13 +61,12 @@ Starting with group then the componets in that group
 	- login
 	- register
 	- forgot password
-	- change password
-	- change email
-	- change username
-	- change profile picture
 	- change profile info
-	
 13. Navigation
+	- Top Navbar
+		~ Sub Menu
 14. Layout
-15. Header
-16. Footer
+	- Page Margins
+	- Page Paddings
+15. Footer
+    - Footer
