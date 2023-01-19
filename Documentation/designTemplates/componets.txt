@@ -1,0 +1,67 @@
+This is a list of the componets in this cite
+This list is broken into sections for easy reading
+Starting with group then the componets in that group
+
+1. Text
+	- Headings
+	- Paragraphs
+2. Images
+	- Icons
+	- Pictures
+3. Links
+    - Internal Link
+	- External Link
+4. Buttons
+    - Navigation
+	- Primary
+	- Secondary
+	- Submit
+	- Cancel
+5. Input
+    - Text
+	- Password
+	- Checkbox
+	- Radio
+	- Select
+	- Textarea
+6. Modles
+	- Information
+	- Warning
+	- Error
+	- Success
+	- Confirmation
+	- Loading
+	- Progress
+	- Help
+7. Sections
+    - Friends section
+    - History section
+    - notifications section
+    - play chess section
+8. Colors
+    - Succses
+	- Danger
+	- Warning
+	- Info
+	- Primary
+	- Secondary
+	- Light
+	- Dark
+11. Lists
+    - Unordered
+	- Ordered
+	- Description
+12. Forms
+	- login
+	- register
+	- forgot password
+	- change password
+	- change email
+	- change username
+	- change profile picture
+	- change profile info
+	
+13. Navigation
+14. Layout
+15. Header
+16. Footer

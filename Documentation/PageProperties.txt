@@ -1,3 +1,4 @@
+
 LoginPage
     - login form with username and password
     - login button
@@ -25,5 +26,38 @@ SettingsPage
     - change theme
     - change account info
     - delete account
+    
+FriendsPage
+    - add friend
+    - find friend
+    - select friend
+        - remove friend
+        - play friend
+
+HistoryPage
+    (lists all games played)
+    
+NotificationsPage
+    (List all notifications received)
+
+GameSetupPage
+    - play computer
+        - select difficulty
+    - play friend
+    - play online
+    - pass and play
+        
+Game Properties
+    - set timer
+    - set gamemode
+    - set side selection
+    
+GamePage
+
+Game Over Page
+	- rematch
+	- rematch with different settings
+	- return to home page
+       
 
     
