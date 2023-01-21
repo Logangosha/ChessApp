@@ -15,10 +15,10 @@ Starting with group then the componets in that group
 	- Icons = use for buttons and links
 	- Pictures = use for art and graphics
 3. Links
-    - Internal Link = use for navigation (will look like button but will be a link, also can have no background or border)
+        - Internal Link = use for navigation (will look like button but will be a link, also can have no background or border)
 	- External Link = use for external links (will look like button but will be a link, also can have no background but will have underline border)
 4. Buttons
-    - Navigation = use icons with option of background or no background
+        - Navigation = use icons with option of background or no background
 	- Primary = use for primary action (Login) || (Play Chess) Background: White
 	- Secondary = use for secondary action (Register) || (Find a Friend) Background: Black Border: White 
 	- Submit = use for submit action (Accept) || (Send) Background: Green
@@ -45,7 +45,24 @@ Starting with group then the componets in that group
     - notifications section
     - play chess section
 8. Colors
-    - Succses
+
+	black
+	white
+	b04141
+	#D3B4A1
+	#855A4A
+	
+	#141418
+	#6B4138
+	#B04141
+	#D3B4A1
+	#F5F0F4
+
+	#808084
+	#4a5454
+	#484b54
+
+	- Succses
 	- Danger
 	- Warning
 	- Info
