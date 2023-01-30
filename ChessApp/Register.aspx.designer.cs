@@ -11,17 +11,35 @@ namespace ChessApp
 {
 
 
-    public partial class _Default
+    public partial class Register
     {
 
         /// <summary>
-        /// loginModal control.
+        /// fnameTbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl loginModal;
+        protected global::System.Web.UI.WebControls.TextBox fnameTbx;
+
+        /// <summary>
+        /// lnameTbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox lnameTbx;
+
+        /// <summary>
+        /// TxtDob control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtDob;
 
         /// <summary>
         /// unameTbx control.
@@ -33,6 +51,15 @@ namespace ChessApp
         protected global::System.Web.UI.WebControls.TextBox unameTbx;
 
         /// <summary>
+        /// emailTbx control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox emailTbx;
+
+        /// <summary>
         /// passwordTbx control.
         /// </summary>
         /// <remarks>
@@ -42,31 +69,13 @@ namespace ChessApp
         protected global::System.Web.UI.WebControls.TextBox passwordTbx;
 
         /// <summary>
-        /// loginBtn control.
+        /// passwordConfirmTbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button loginBtn;
-
-        /// <summary>
-        /// displayModalBtn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button displayModalBtn;
-
-        /// <summary>
-        /// playAsGuestBtn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button playAsGuestBtn;
+        protected global::System.Web.UI.WebControls.TextBox passwordConfirmTbx;
 
         /// <summary>
         /// registerBtn control.

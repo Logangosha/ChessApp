@@ -1,26 +1,24 @@
-﻿<%@ Page Title="Welcome to Chess!" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-CodeBehind="Default.aspx.cs" Inherits="ChessApp._Default" %>
+﻿<%@ Page Title="Welcome to Chess!" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ChessApp._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <link href="/Styles/LoginPage.css" rel="stylesheet" />
     <div class="container-fluid h-100">
         <div class="row h-100">
-            <!-- Left side col -->
-            <div class="col-md-4 bg-warning"></div>
-            <!-- Middle col -->
-            <div class="col-md-4 align-self-center bg-primary">
-                <div class="row">
-                    <!-- Login Form -->
-                    <div class="col-md-6 bg-secondary">
-                        <h1 class="text-center">Welcome to Chess!</h1>
-                    </div>
-                    <!-- Image col -->
-                    <div class="col-md-6 bg-warning">
-                        <h1 class="text-center">Welcome to Chess!</h1>
-                    </div>
-                </div>
+          <h1>CHESS</h1>
+            <div runat="server" ID="loginModal" style="visibility:hidden; display:none;" >
+                <asp:TextBox runat="server" Placeholder="Username" ID="unameTbx" />
+                <asp:TextBox runat="server" Placeholder="Password" ID="passwordTbx" TextMode="Password"/>
+                <asp:Button runat="server"  Text="Login"           ID="loginBtn"    OnClick="loginBtn_Click" />
+                <hr/>
+                <asp:HyperLink runat="server" NavigateUrl="Recover_Login.aspx" Text="Frogot Login" />
             </div>
-            <!-- Right side col -->
-            <div class="col-md-4 bg-info"></div>
+            <div id="defaultMenu">
+                <asp:Button runat="server" Text="Login" ID="displayModalBtn" OnClick="displayModalBtn_Click"/>
+                <asp:Button runat="server" Text="Play as Guest" ID="playAsGuestBtn" OnClick="playAsGuestBtn_Click"/>
+                <asp:Button runat="server" Text="Register" ID="registerBtn" OnClick="registerBtn_Click"/>
+            </div>
         </div>
     </div>
+    <script type="text/javascript">
+    </script>
 </asp:Content>

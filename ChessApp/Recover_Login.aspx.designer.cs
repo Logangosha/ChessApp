@@ -11,70 +11,61 @@ namespace ChessApp
 {
 
 
-    public partial class _Default
+    public partial class Recover_Login
     {
 
         /// <summary>
-        /// loginModal control.
+        /// recoverySentCodeSection control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl loginModal;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl recoverySentCodeSection;
 
         /// <summary>
-        /// unameTbx control.
+        /// recoveryLb control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox unameTbx;
+        protected global::System.Web.UI.WebControls.Label recoveryLb;
 
         /// <summary>
-        /// passwordTbx control.
+        /// recoveryResendBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox passwordTbx;
+        protected global::System.Web.UI.WebControls.Button recoveryResendBtn;
 
         /// <summary>
-        /// loginBtn control.
+        /// recoverySubmitEmailSection control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button loginBtn;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl recoverySubmitEmailSection;
 
         /// <summary>
-        /// displayModalBtn control.
+        /// recoveryTbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button displayModalBtn;
+        protected global::System.Web.UI.WebControls.TextBox recoveryTbx;
 
         /// <summary>
-        /// playAsGuestBtn control.
+        /// recoveryBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button playAsGuestBtn;
-
-        /// <summary>
-        /// registerBtn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button registerBtn;
+        protected global::System.Web.UI.WebControls.Button recoveryBtn;
     }
 }
