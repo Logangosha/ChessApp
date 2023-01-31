@@ -11,61 +11,43 @@ namespace ChessApp
 {
 
 
-    public partial class Recover_Login
+    public partial class Settings
     {
 
         /// <summary>
-        /// sectionRecoverySentCode control.
+        /// btnChangeLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl sectionRecoverySentCode;
+        protected global::System.Web.UI.WebControls.Button btnChangeLogin;
 
         /// <summary>
-        /// lbRecovery control.
+        /// btnChangeTheme control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbRecovery;
+        protected global::System.Web.UI.WebControls.Button btnChangeTheme;
 
         /// <summary>
-        /// btnRecoveryResend control.
+        /// btnChangeAccountInfo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnRecoveryResend;
+        protected global::System.Web.UI.WebControls.Button btnChangeAccountInfo;
 
         /// <summary>
-        /// sectionRecoverySubmitEmail control.
+        /// btnDeleteAccount control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl sectionRecoverySubmitEmail;
-
-        /// <summary>
-        /// tbxRecovery control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tbxRecovery;
-
-        /// <summary>
-        /// recoveryBtn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button recoveryBtn;
+        protected global::System.Web.UI.WebControls.Button btnDeleteAccount;
     }
 }

@@ -15,75 +15,75 @@ namespace ChessApp
     {
 
         /// <summary>
-        /// fnameTbx control.
+        /// tbxFname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox fnameTbx;
+        protected global::System.Web.UI.WebControls.TextBox tbxFname;
 
         /// <summary>
-        /// lnameTbx control.
+        /// tbxLname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox lnameTbx;
+        protected global::System.Web.UI.WebControls.TextBox tbxLname;
 
         /// <summary>
-        /// TxtDob control.
+        /// tbxDob control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtDob;
+        protected global::System.Web.UI.WebControls.TextBox tbxDob;
 
         /// <summary>
-        /// unameTbx control.
+        /// tbxUname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox unameTbx;
+        protected global::System.Web.UI.WebControls.TextBox tbxUname;
 
         /// <summary>
-        /// emailTbx control.
+        /// tbxEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox emailTbx;
+        protected global::System.Web.UI.WebControls.TextBox tbxEmail;
 
         /// <summary>
-        /// passwordTbx control.
+        /// tbxPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox passwordTbx;
+        protected global::System.Web.UI.WebControls.TextBox tbxPassword;
 
         /// <summary>
-        /// passwordConfirmTbx control.
+        /// tbxPasswordConfirm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox passwordConfirmTbx;
+        protected global::System.Web.UI.WebControls.TextBox tbxPasswordConfirm;
 
         /// <summary>
-        /// registerBtn control.
+        /// btnRegister control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button registerBtn;
+        protected global::System.Web.UI.WebControls.Button btnRegister;
     }
 }

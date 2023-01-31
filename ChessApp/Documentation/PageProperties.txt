@@ -14,7 +14,7 @@ ForgotPasswordPage
     - recover password with username button
 
 HomePage
-    - logout button
+    - logout button - if loged in/ if not then it says sign up
     - Settings button
     - Friends section
     - History section

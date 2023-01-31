@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace ChessApp
 {
-    public partial class About : Page
+    public partial class GameHistory : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

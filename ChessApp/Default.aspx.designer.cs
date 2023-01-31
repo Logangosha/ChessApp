@@ -24,57 +24,57 @@ namespace ChessApp
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl loginModal;
 
         /// <summary>
-        /// unameTbx control.
+        /// tbxUname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox unameTbx;
+        protected global::System.Web.UI.WebControls.TextBox tbxUname;
 
         /// <summary>
-        /// passwordTbx control.
+        /// tbxPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox passwordTbx;
+        protected global::System.Web.UI.WebControls.TextBox tbxPassword;
 
         /// <summary>
-        /// loginBtn control.
+        /// btnLogin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button loginBtn;
+        protected global::System.Web.UI.WebControls.Button btnLogin;
 
         /// <summary>
-        /// displayModalBtn control.
+        /// btnDisplayModal control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button displayModalBtn;
+        protected global::System.Web.UI.WebControls.Button btnDisplayModal;
 
         /// <summary>
-        /// playAsGuestBtn control.
+        /// btnPlayAsGuest control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button playAsGuestBtn;
+        protected global::System.Web.UI.WebControls.Button btnPlayAsGuest;
 
         /// <summary>
-        /// registerBtn control.
+        /// btnRegister control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button registerBtn;
+        protected global::System.Web.UI.WebControls.Button btnRegister;
     }
 }

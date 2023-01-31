@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace ChessApp
 {
-    public partial class Contact : Page
+    public partial class Notifications : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -11,7 +11,7 @@ namespace ChessApp
 {
 
 
-    public partial class WebForm1
+    public partial class Notifications
     {
     }
 }

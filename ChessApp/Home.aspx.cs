@@ -11,32 +11,57 @@ namespace ChessApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if(!IsPostBack)
+            {
+                if(Session["AccountInfo"] != null)
+                {
+                    PlayerAccount player = (PlayerAccount)Session["AccountInfo"];
+                    btnSignIn.Attributes["class"] = "d-none invisible";
+                }
+                else
+                {
+                    btnLogout.Attributes["class"] = "d-none invisible";
+                    btnNotifications.Attributes["class"] = "d-none invisible";
+                    btnFriends.Attributes["class"] = "d-none invisible";
+                    btnHistory.Attributes["class"] = "d-none invisible";
+                }
+            }
         }
 
-        protected void playChessBtn_Click(object sender, EventArgs e)
+        protected void BtnPlayChess_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Play.aspx");
         }
 
-        protected void notificationsBtn_Click(object sender, EventArgs e)
+        protected void BtnNotifications_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Notifications.aspx");
         }
 
-        protected void friendsBtn_Click(object sender, EventArgs e)
+        protected void BtnFriends_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("Friends.aspx");
         }
 
-        protected void historyBtn_Click(object sender, EventArgs e)
+        protected void BtnHistory_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("GameHistory.aspx");
         }
 
-        protected void logoutBtn_Click(object sender, EventArgs e)
+        protected void BtnLogout_Click(object sender, EventArgs e)
         {
+            Session["AccountInfo"] = null;
+            Response.Redirect("Home.aspx");
+        }
 
+        protected void BtnSignIn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Default.aspx");
+        }
+
+        protected void BtnSettings_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Settings.aspx");
         }
     }
 }

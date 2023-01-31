@@ -105,7 +105,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
     <Content Include="bin\Antlr3.Runtime.dll" />
     <Content Include="bin\Antlr3.Runtime.pdb" />
     <Content Include="bin\AspNet.ScriptManager.bootstrap.dll" />
@@ -164,7 +163,6 @@
     <Content Include="bin\System.Web.Optimization.dll" />
     <Content Include="bin\System.Web.Optimization.xml" />
     <Content Include="bin\WebGrease.dll" />
-    <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -175,6 +173,9 @@
     <Content Include="Documentation\PageProperties.txt" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FriendAccount.aspx" />
+    <Content Include="Friends.aspx" />
+    <Content Include="GameHistory.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -191,6 +192,7 @@
     <Content Include="images\whitehandmovingchesspiece.jpg" />
     <Content Include="images\前面 4. Lovebirds Website Login Design.jpg" />
     <Content Include="media\Toccata-and-fugue-in-d-minor.mp3" />
+    <Content Include="Notifications.aspx" />
     <Content Include="obj\Debug\ChessApp.csproj.AssemblyReference.cache" />
     <Content Include="obj\Debug\ChessApp.csproj.CopyComplete" />
     <Content Include="obj\Debug\ChessApp.csproj.CoreCompileInputs.cache" />
@@ -224,10 +226,11 @@
     <Content Include=".vs\slnx.sqlite" />
     <Content Include=".vs\slnx.sqlite-journal" />
     <Content Include=".vs\VSWorkspaceState.json" />
+    <Content Include="Play.aspx" />
     <Content Include="README.md" />
     <Content Include="Recover_Login.aspx" />
     <Content Include="Register.aspx" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="Settings.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="obj\Debug\ChessApp.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\ChessApp.dll" />
@@ -269,23 +272,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PlayerAccount.cs" />
+    <Compile Include="Classes\AccountPassword.cs" />
+    <Compile Include="Classes\Friend.cs" />
+    <Compile Include="Classes\GameData.cs" />
+    <Compile Include="Classes\Notification.cs" />
+    <Compile Include="Classes\PlayerAccount.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -293,10 +286,31 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FriendAccount.aspx.cs">
+      <DependentUpon>FriendAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FriendAccount.aspx.designer.cs">
+      <DependentUpon>FriendAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Friends.aspx.cs">
+      <DependentUpon>Friends.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Friends.aspx.designer.cs">
+      <DependentUpon>Friends.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GameHistory.aspx.cs">
+      <DependentUpon>GameHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GameHistory.aspx.designer.cs">
+      <DependentUpon>GameHistory.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Guest.cs" />
+    <Compile Include="Classes\Guest.cs" />
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -304,8 +318,22 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Notifications.aspx.cs">
+      <DependentUpon>Notifications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notifications.aspx.designer.cs">
+      <DependentUpon>Notifications.aspx</DependentUpon>
+    </Compile>
     <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Play.aspx.cs">
+      <DependentUpon>Play.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Play.aspx.designer.cs">
+      <DependentUpon>Play.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recover_Login.aspx.cs">
       <DependentUpon>Recover_Login.aspx</DependentUpon>
@@ -320,6 +348,13 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.aspx.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Settings.aspx.designer.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -341,13 +376,6 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

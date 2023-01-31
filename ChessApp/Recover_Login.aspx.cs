@@ -14,16 +14,16 @@ namespace ChessApp
             
         } 
 
-        protected void recoveryBtn_Click(object sender, EventArgs e)
+        protected void BtnRecovery_Click(object sender, EventArgs e)
         {
-            recoverySentCodeSection.Attributes["class"] = "d-block visible";
-            recoverySubmitEmailSection.Attributes["class"] = "d-none invisible";
+            sectionRecoverySentCode.Attributes["class"] = "d-block visible";
+            sectionRecoverySubmitEmail.Attributes["class"] = "d-none invisible";
         }
 
-        protected void recoveryResendBtn_Click(object sender, EventArgs e)
+        protected void BtnRecoveryResend_Click(object sender, EventArgs e)
         {
-            recoveryLb.Text = "Link has been resent.";
-            recoveryResendBtn.Attributes["class"] = "d-none invisible";
+            lbRecovery.Text = "Link has been resent.";
+            btnRecoveryResend.Attributes["class"] = "d-none invisible";
         }
     }
 }

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ChessApp
+namespace ChessApp.Classes
 {
-    public class AccountPassword
+    public class Friend
     {
     }
 }

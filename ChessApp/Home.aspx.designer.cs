@@ -15,48 +15,66 @@ namespace ChessApp
     {
 
         /// <summary>
-        /// notificationsBtn control.
+        /// btnNotifications control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button notificationsBtn;
+        protected global::System.Web.UI.WebControls.Button btnNotifications;
 
         /// <summary>
-        /// playChessBtn control.
+        /// btnPlayChess control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button playChessBtn;
+        protected global::System.Web.UI.WebControls.Button btnPlayChess;
 
         /// <summary>
-        /// friendsBtn control.
+        /// btnFriends control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button friendsBtn;
+        protected global::System.Web.UI.WebControls.Button btnFriends;
 
         /// <summary>
-        /// historyBtn control.
+        /// btnHistory control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button historyBtn;
+        protected global::System.Web.UI.WebControls.Button btnHistory;
 
         /// <summary>
-        /// logoutBtn control.
+        /// btnSettings control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button logoutBtn;
+        protected global::System.Web.UI.WebControls.Button btnSettings;
+
+        /// <summary>
+        /// btnLogout control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnLogout;
+
+        /// <summary>
+        /// btnSignIn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSignIn;
     }
 }
