@@ -21,6 +21,7 @@ namespace ChessApp
         {
             // Code that runs when a new session is started
             Session["AccountInfo"] = null;
+            Session["GameType"] = null;
         }
     }
 }
