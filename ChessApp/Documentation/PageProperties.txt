@@ -60,4 +60,48 @@ Game Over Page
 	- return to home page
        
 
+What are the elements I need to design
+all elements will have light and dark theme
+-buttons
+    -primary
+    -secondary
+    -unselected
+    -selected
+    -Icon buttons
+-typography
+    - headings
+    - big p 
+    - small p
+- input fields
+    - solid background 
+        - if theme is light then the background is darker than background
+        - if theme is dark then the background is lighter than background
+    - center text
+    - icon on left
+    - placeholder text
+    - focus effects are
+        - background will get lighter or darker depending on theme
+    
+-colors
+the main colors of the sight will be black white and red
+the light theme will be white background slightly darker white background for elements  with black text
+the dark theme will be black background slightly lighter black background for elements with white text
+primary color will be red
+secondary color will be the text color 
+OR will be a darker red
+-layout
+desktop and mobile layouts
+both layouts will inclue margin around all corners of the screen
+both will have one column layout with the exception of the game page
+
+-Multiple choice feilds
+-login form
+username 
+password
+- frogot login? - 
+Login
+- Create an account -
+-modals
+Modals will dimm out background and take up 80 percent of the screen
+
     
