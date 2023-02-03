@@ -26,6 +26,8 @@ namespace ChessApp
 
         protected void BtnPlayAsGuest_Click(object sender, EventArgs e)
         {
+            Guest guest = new Guest();
+            Session["AccountInfo"] = guest;
             Response.Redirect("Home.aspx");
         }
 

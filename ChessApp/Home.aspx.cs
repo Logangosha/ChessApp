@@ -13,13 +13,14 @@ namespace ChessApp
         {
             if(!IsPostBack)
             {
-                if(Session["AccountInfo"] != null)
+                if(Session["AccountInfo"] != null && Session["AccountInfo"].GetType() == typeof(PlayerAccount))
                 {
                     PlayerAccount player = (PlayerAccount)Session["AccountInfo"];
                     btnSignIn.Attributes["class"] = "d-none invisible";
                 }
                 else
                 {
+                    
                     btnLogout.Attributes["class"] = "d-none invisible";
                     btnNotifications.Attributes["class"] = "d-none invisible";
                     btnFriends.Attributes["class"] = "d-none invisible";
@@ -30,7 +31,7 @@ namespace ChessApp
 
         protected void BtnPlayChess_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Play.aspx");
+            Response.Redirect("Setup.aspx");
         }
 
         protected void BtnNotifications_Click(object sender, EventArgs e)

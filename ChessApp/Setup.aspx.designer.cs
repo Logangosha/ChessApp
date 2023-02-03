@@ -11,8 +11,53 @@ namespace ChessApp
 {
 
 
-    public partial class Setup
+    public partial class Play
     {
+
+        /// <summary>
+        /// divGameType control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divGameType;
+
+        /// <summary>
+        /// btnPlayComputer control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnPlayComputer;
+
+        /// <summary>
+        /// btnPlayOnline control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnPlayOnline;
+
+        /// <summary>
+        /// btnPassPlay control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnPassPlay;
+
+        /// <summary>
+        /// divGameDetails control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divGameDetails;
 
         /// <summary>
         /// btnSetGameMode control.
@@ -24,6 +69,15 @@ namespace ChessApp
         protected global::System.Web.UI.WebControls.Button btnSetGameMode;
 
         /// <summary>
+        /// divSetTimer control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divSetTimer;
+
+        /// <summary>
         /// btnSetTimer control.
         /// </summary>
         /// <remarks>
@@ -31,6 +85,15 @@ namespace ChessApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSetTimer;
+
+        /// <summary>
+        /// divPickSide control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divPickSide;
 
         /// <summary>
         /// btnPickSide control.
@@ -42,6 +105,15 @@ namespace ChessApp
         protected global::System.Web.UI.WebControls.Button btnPickSide;
 
         /// <summary>
+        /// divChooseFriend control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divChooseFriend;
+
+        /// <summary>
         /// btnChooseFriend control.
         /// </summary>
         /// <remarks>
@@ -49,6 +121,15 @@ namespace ChessApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnChooseFriend;
+
+        /// <summary>
+        /// divSelectComputerDifficulty control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divSelectComputerDifficulty;
 
         /// <summary>
         /// btnSelectComputerDifficulty control.

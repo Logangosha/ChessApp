@@ -5,7 +5,7 @@ using System.Web;
 
 namespace ChessApp.Classes
 {
-    public class GameData
+    public class Queen
     {
     }
 }

@@ -17,11 +17,11 @@ namespace ChessApp
         public string dob { get; set; }
         public AccountPassword password { get; set; }
         public List<Friend> friends { get; set; }
-        public List<GameData> gameHistory { get; set; }
+        public List<Classes.Game> gameHistory { get; set; }
         public List<Notification> notifications { get; set; }
         public bool PlayerStatus { get; set; }
         //when account is logged into
-        public PlayerAccount(string _fName, string _lName, string _uName, string _email, string _dob, AccountPassword _password, List<Friend> _friends, List<GameData> _gameHistory, List<Notification> _notifications)
+        public PlayerAccount(string _fName, string _lName, string _uName, string _email, string _dob, AccountPassword _password, List<Friend> _friends, List<Classes.Game> _gameHistory, List<Notification> _notifications)
         {
             fName = _fName;
             lName = _lName;
@@ -44,7 +44,7 @@ namespace ChessApp
             dob = _dob;
             password = _password;
             friends = new List<Friend> { };
-            gameHistory = new List<GameData> { };
+            gameHistory = new List<Classes.Game> { };
             notifications = new List<Notification> { };
             PlayerStatus = true;
         }
